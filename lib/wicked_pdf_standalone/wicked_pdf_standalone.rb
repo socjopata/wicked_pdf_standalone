@@ -31,7 +31,6 @@ class WkPdfRenderer < ActionController::Base
     render_to_string(:template => template_path, :layout => options[:layout])
   end
 
-  #For testing purposes.
   def make_pdf(options = {})
     options = prerender_header_and_footer(options)
     w = WickedPdf.new(options[:wkhtmltopdf])
