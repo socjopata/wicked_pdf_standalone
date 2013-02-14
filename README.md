@@ -1,7 +1,5 @@
 # WickedPdfStandalone
 
-TODO: Write a gem description
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -34,6 +32,9 @@ And if you want to spit out a file, right away:
     $    file << @pdf_renderer_instance.send(:make_pdf)
     $  end
     $
+
+## Credits
+   $ Developed during open-source day at Selleo web & mobile software development house - http://selleo.com
 
 ## Contributing
 
